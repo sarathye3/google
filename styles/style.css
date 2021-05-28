@@ -15,11 +15,12 @@ ul{
     margin-top: 7px;
     margin-right: 10px;
 }
-.lin{
+li.lin a{
+    font-size:small;
     display: flex;
    justify-content: flex-end;
-    margin-top: 9px;
-    margin-right: 14px;
+    margin-top: 8px;
+    margin-right: 12px;
     align-items: center;
     text-decoration:none;
     color:rgb(71, 68, 68);
@@ -28,16 +29,22 @@ ul{
     text-decoration: underline;
 }
 li.menu:hover{
-
+    border-radius: 50%;
+    border: .5px solid #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
+				0 0 2px rgba(0, 0, 0, 0.05),
+				0 0 3px rgba(0, 0, 0, 0.05),
+				0 0 4px rgba(0, 0, 0, 0.05),  
+				0 0 5px rgba(0, 0, 0, 0.05)
 }
 
 button#sign{
-
-    height: 35px;
-    width: 75px;
+margin-top: 7px;
+    height: 25px;
+    width: 65px;
     border-radius: 6px;
     color:white ;
-    font-size: small;
+    font-size:small;
     background-color:#1A73e8;
     text-decoration: none;
     border: none;
@@ -46,4 +53,54 @@ button#sign:hover{
     
     color: white;
     background-color: #006eff;
+}
+div#glogo{
+    min-height: 10%;
+    min-width: auto;
+    padding-top: 10%;
+    padding-left: 40%;
+}
+#sbar{
+	width: 580px;
+	margin: 0px auto;
+	position: relative;
+	margin-top: 8px;
+	text-align: center;
+    
+}
+#sbar:hover
+{
+    border-radius: 25px;
+    border: 1px solid #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
+				0 0 2px rgba(0, 0, 0, 0.05),
+				0 0 3px rgba(0, 0, 0, 0.05),
+				0 0 4px rgba(0, 0, 0, 0.05), 
+				0 0 5px rgba(0, 0, 0, 0.05), 
+				0 0 4px rgba(0, 0, 0, 0.05), 
+				0 0 5px rgba(0, 0, 0, 0.05)
+}
+input#input{
+    display: block;
+border: 1px solid #ddd;
+color: rgba(0,0,0, 0.87);
+padding: 13px;
+padding-left: 45px;
+border-radius: 25px;
+width: 100%;
+outline: none;
+}
+#sbar img#si{
+    position: absolute;
+    width: 23px;
+top: 13px;
+    left: 18px;
+}
+
+#sbar img#vi{
+    position: absolute;
+    width: 23px;
+    height: 25px;
+    top: 12px;
+    right: 18px;
 }
